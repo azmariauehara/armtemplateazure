@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccountName": {
-            "value": "rgscopedeployskeleton_sa"
+            "value": "sascopedeployskeleton"
         },
         "storageAccountTier": {
             "value": "Standard"
@@ -12,7 +12,7 @@
             "value": "Standard_LRS"
         },
         "virtualNetworkName": {
-            "value": "rgscopedeployskeleton_vnet"
+            "value": "vnscopedeployskeleton"
         },
         "virtualNetworkAddressPrefix": {
             "value": [
@@ -23,7 +23,7 @@
             "value": "Subnet-1"
         },
         "virtualNetworkSubnetAddressPrefix": {
-            "value": "Subnet-2"
+            "value": "10.0.0.0/24"
         }
     }
 }
