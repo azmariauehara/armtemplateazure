@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageAccountName": {
+            "value": "rgscopedeployskeleton_sa"
+        },
+        "storageAccountTier": {
+            "value": "Standard"
+        },
+        "storageAccountSku": {
+            "value": "Standard_LRS"
+        },
+        "virtualNetworkName": {
+            "value": "rgscopedeployskeleton_vnet"
+        },
+        "virtualNetworkAddressPrefix": {
+            "value": [
+                "10.0.0.0/16"
+            ]
+        },
+        "VirtualNetworkSubnetName": {
+            "value": "Subnet-1"
+        },
+        "virtualNetworkSubnetAddressPrefix": {
+            "value": "Subnet-2"
+        }
+    }
+}
